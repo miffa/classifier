@@ -6,6 +6,8 @@ using namespace std;
 #include <ext/hash_map>
 using namespace __gnu_cxx;
 
+
+//hash function
 struct StrHashFunc  //hash 函数
 {
 	size_t operator() (const string& str)const
