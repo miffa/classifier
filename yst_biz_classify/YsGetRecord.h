@@ -39,6 +39,7 @@ public:
     bool AddRecord(Ys_Record* Recordtmp);
 };
 
+//this a bad class design
 class Ys_GetRecord{
 private:
     string m_strPath;

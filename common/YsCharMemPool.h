@@ -1,7 +1,7 @@
 #ifndef __YS_CHAR_MEM_POOL_H__
 #define __YS_CHAR_MEM_POOL_H__
 #include "YssTypeDef.h"
-#define CHARGROUP (1024*1024)
+#define CHARGROUP (1024*1024)    //M
 class YS_CharMemPool{
 public:
 	YS_CharMemPool(UINT32 uiPoolSize){

@@ -6,7 +6,7 @@
 /***********************/
 size_t StringHashFunc::operator() (const string& str)const
 {
-	__stl_hash_string(str.c_str());
+	return __stl_hash_string(str.c_str());
 }
 
 /***********************/
